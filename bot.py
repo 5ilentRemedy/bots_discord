@@ -8,6 +8,7 @@ import subprocess;
 
 start_files = [
     "eddiebot.py",
-    "takemura.py"
+    "takemura.py",
+    "johnnybot.py"
 ]
 
