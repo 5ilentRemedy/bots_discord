@@ -84,19 +84,7 @@ def addto_bank_account(ID):
                 #print(output[0])
                 #print(output[1])
                 connection.commit()
-                
-                
 
-                    #id_userindb=row[0]
-                    #bank_balancetemp=row[1]
-
-                
-                
-                #print(bank_balancetemp)
-                #bank_balancetemp = bank_balancet[1]
-                #tb_id = bank_balancet[0]
-                #bank_balancetemp = bank_balancetemp+150
-                #print(bank_balancetemp)
                 bank_balancetemp=output[1]+10
                 params=(bank_balancetemp,output[0])
                 #print(params)
